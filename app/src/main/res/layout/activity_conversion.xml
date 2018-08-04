@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textGridConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title"
+        android:translationY="-37pt"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        />
+
+    <TextView
+        android:id="@+id/obligationConversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/obligation"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:translationY="5dp"/>
+
+    <TextView
+        android:id="@+id/selectionConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/method"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:translationX="-40pt"
+        android:translationY="45dp"/>
+    <Spinner
+        android:id="@+id/mySpinnerConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="100dp"
+        android:translationY="21dp"/>
+
+    <TextView
+        android:id="@+id/ingresoConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cantidad"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:translationX="-93dp"
+        android:translationY="45dp"/>
+
+    <EditText
+        android:id="@+id/inputConversion1"
+        android:layout_width="60dp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="@string/data"
+        android:translationX="145dp"
+        android:translationY="3dp"/>
+
+    <TextView
+        android:id="@+id/R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:translationY="25dp"
+        android:translationX="-130dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:translationY="5dp"
+        android:translationX="-60dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnConversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculation"
+        android:translationY="30dp"
+        android:textSize="17sp"
+        style="@style/Buttons"/>
+
+
+
+</LinearLayout>

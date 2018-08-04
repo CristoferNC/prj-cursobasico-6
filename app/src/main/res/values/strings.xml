@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TuPesoIdeal2</string>
+    <string name="title">TU PESO IDEAL</string>
+    <string name="play">Iniciar</string>
+    <string name="grid">Ver Pesos Ideales</string>
+    <string name="exit">Salir</string>
+    <string name="complexion">Complexión</string>
+    <string name="BoddyMass">Masa Corporal</string>
+    <string name="method">Seleccione Metodo:</string>
+    <string name="calculation">Calcular</string>
+    <string name="gener">Seleccione Genero:</string>
+    <string name="men">Masculino</string>
+    <string name="women">Femenina</string>
+    <string name="conversation">Conversión de Números</string>
+    <string name="altura">Altura en Metros</string>
+    <string name="altura2">Ingrese Su Altura En Metros:</string>
+    <string name="altura3">Altura</string>
+    <string name="alturaFt">Ingrese Su Altura En Pies:</string>
+    <string name="kg">Kilogramos</string>
+    <string name="kg2">Ingrese Sus Kilogramos:</string>
+    <string name="kg3">Kg</string>
+    <string name="obligation">Complete Todos Los Campos:</string>
+    <string name="end">Resultado:</string>
+    <string name="circunferenciaM">Cirunferencia de Muñeca en Cm:</string>
+    <string name="CM">C.M</string>
+    <string name="selectionFt">Seleccione su altura:</string>
+    <string name="data">Dato</string>
+    <string name="cantidad">Ingrese El Numero:</string>
+    <string name="table">Tabla de Pesos Ideales</string>
+</resources>
