@@ -63,7 +63,7 @@
     <EditText
         android:id="@+id/inputConversion1"
         android:layout_width="60dp"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:layout_height="wrap_content"
         android:hint="@string/data"
         android:translationX="145dp"
