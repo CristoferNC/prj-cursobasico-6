@@ -62,7 +62,7 @@
 
     <EditText
         android:id="@+id/inputWomen"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/altura3"
@@ -82,7 +82,7 @@
 
     <EditText
         android:id="@+id/input2Women"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:hint="@string/CM"
