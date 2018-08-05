@@ -45,7 +45,7 @@
 
     <EditText
         android:id="@+id/input"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:layout_width="55dp"
         android:layout_height="wrap_content"
         android:hint="@string/altura"
@@ -65,7 +65,7 @@
 
     <EditText
         android:id="@+id/input2"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:layout_width="55dp"
         android:layout_height="wrap_content"
         android:hint="@string/kg3"
